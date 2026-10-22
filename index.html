@@ -3,9 +3,26 @@
    <head>
     <meta charset="utf-8">
     <title>Erste Seite</title>
+      <style>
+         body{
+            background-color: pink;
+            text-align: center;
+            font-family: Arial;
+         }
+         h1{color:black;}
+         #mann{
+            font-size: 100px;
+            animation: tanzen 1s infinite alternate;
+         }
+         @keyframes tanzen{
+            from {transform: rotate(-15deg);}
+            to {transform: rotate(15deg);}
+         }
+      </style>
     </head>
     <body>
         <h1>Hi</h1>
         <p>Ich wollte dir mal HALLO über diese Website sagen. 😃</p>
+       <div id="mann">🕺</div>
     </body>
     </html>
